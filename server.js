@@ -2,7 +2,6 @@
 // dependencies
 const http = require("http");
 
-
 // PORT
 const PORT = 3000;
 
