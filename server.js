@@ -2,7 +2,6 @@
 // dependencies
 const http = require("http");
 
-
 // PORT
 const PORT = 3000;
 
@@ -23,6 +22,7 @@ const server = http.createServer((req, res) => {
 // server listen port
 server.listen(PORT);
 
+console.log("Starting server");
 console.log(`Server is running on PORT: ${PORT}`);
 
 // ======== Instructions ========
